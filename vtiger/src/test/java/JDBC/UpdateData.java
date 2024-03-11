@@ -25,7 +25,7 @@ Driver driver = new Driver();
         else
         {	System.out.println("Dtabase has not been updated");
         }	
-        connection.close;
+        connection.close();
 	
 	}
 	
