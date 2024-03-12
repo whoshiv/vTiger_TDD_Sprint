@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-12T07:10:39Z" name="Surefire suite" finished-at="2024-03-12T07:12:11Z" duration-ms="91869">
+    <groups>
+      <group name="regression">
+        <method signature="ToCreateOpportunityTest.toCreateAnOpportunityWithOrganizationAndCampaignDetails()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" name="toCreateAnOpportunityWithOrganizationAndCampaignDetails" class="vtiger.opportunity_module.ToCreateOpportunityTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="ToCreateALeadTest.toCreateALeadAndVerifyTheLeadInfo()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" name="toCreateALeadAndVerifyTheLeadInfo" class="vtiger.lead_Module.ToCreateALeadTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-12T07:10:39Z" name="Surefire test" finished-at="2024-03-12T07:12:11Z" duration-ms="91869">
+      <class name="vtiger.lead_Module.ToCreateALeadTest">
+        <test-method is-config="true" signature="btConfig()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" started-at="2024-03-12T07:10:39Z" name="btConfig" finished-at="2024-03-12T07:10:42Z" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" started-at="2024-03-12T07:10:42Z" name="bmConfig" finished-at="2024-03-12T07:10:45Z" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateALeadAndVerifyTheLeadInfo()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" started-at="2024-03-12T07:10:45Z" name="toCreateALeadAndVerifyTheLeadInfo" finished-at="2024-03-12T07:11:10Z" duration-ms="25178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateALeadAndVerifyTheLeadInfo -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" started-at="2024-03-12T07:11:10Z" name="amConfig" finished-at="2024-03-12T07:11:25Z" duration-ms="15052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.lead_Module.ToCreateALeadTest@7364985f]" started-at="2024-03-12T07:11:25Z" name="acConfig" finished-at="2024-03-12T07:11:25Z" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.lead_Module.ToCreateALeadTest -->
+      <class name="vtiger.opportunity_module.ToCreateOpportunityTest">
+        <test-method is-config="true" signature="btConfig()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" started-at="2024-03-12T07:11:25Z" name="btConfig" finished-at="2024-03-12T07:11:28Z" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" started-at="2024-03-12T07:11:28Z" name="bmConfig" finished-at="2024-03-12T07:11:30Z" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateAnOpportunityWithOrganizationAndCampaignDetails()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" started-at="2024-03-12T07:11:30Z" name="toCreateAnOpportunityWithOrganizationAndCampaignDetails" finished-at="2024-03-12T07:12:09Z" duration-ms="39411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateAnOpportunityWithOrganizationAndCampaignDetails -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" started-at="2024-03-12T07:12:09Z" name="amConfig" finished-at="2024-03-12T07:12:11Z" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.opportunity_module.ToCreateOpportunityTest@5d20e46]" started-at="2024-03-12T07:12:11Z" name="acConfig" finished-at="2024-03-12T07:12:11Z" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.opportunity_module.ToCreateOpportunityTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
